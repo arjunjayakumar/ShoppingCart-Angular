@@ -1,0 +1,13 @@
+<!-- <div><p>Parent Component Works!!!</p></div> -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4" *ngFor="let pdt of Plist" style="border-style:groove;">
+            <i>{{pdt.id}}</i><br>
+            <img src="{{pdt.img}}" alt="Unable to contact Server"><br>
+            <b>{{pdt.name}}</b><br>
+            <span>{{pdt.price}}</span><br>
+            <button class="btn btn-success" (click)="addtocart(pdt)">Add to Cart</button>
+        </div>
+    </div>
+</div>

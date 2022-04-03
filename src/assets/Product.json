@@ -1,0 +1,7 @@
+[
+    {"id":101,"name":"Pencil","price":"₹5","img":"http://localhost:4200/assets/imgs/pencil.png","qty":0},
+    {"id":102,"name":"Book","price":"₹50","img":"http://localhost:4200/assets/imgs/book.png","qty":0},
+    {"id":103,"name":"Pen","price":"₹15","img":"http://localhost:4200/assets/imgs/pen.png","qty":0},
+    {"id":104,"name":"Graph","price":"₹25","img":"http://localhost:4200/assets/imgs/graph.png","qty":0},
+    {"id":105,"name":"Ruler","price":"₹10","img":"http://localhost:4200/assets/imgs/ruler.png","qty":0}
+]

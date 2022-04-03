@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+        <div>
+            <div *ngFor="let i of currentitems">
+                    <div style="border-style: groove;width: 20%;" class="col-sm-6">
+                        <img src="{{i.img}}" alt="alternate"><br>
+                        <p>{{i.id}}</p>
+                        <p>{{i.name}}</p>
+                        <p>{{i.price}}</p>
+                        <p>{{i.qty}}</p>
+                        <button (click)="qtyadd(i)">+</button>
+                    </div>    
+            </div>
+        </div>
+        <p>Total Price:- {{total}}</p>
+    </div>
+</div>
