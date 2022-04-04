@@ -7,8 +7,5 @@ export class CartService {
 
   constructor() { }
   itemcart:any=[]
-  dataFetch(){
-    let data:any
-    return data
-  }
+  totalprice:number=0
 }

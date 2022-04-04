@@ -13,17 +13,6 @@ Plist:any=[]
 
   ngOnInit(): void {
   this.pl.getProductDetails().then(x=>x.json()).then(data=>this.Plist=data)
-  // let cartlistitems=[...this.cartitems] 
-  // const giveData=()=>{console.log("data transferred");return cartlistitems}
-  // this.c1.itemcart=giveData()
-  // console.log(this.c1.itemcart)
-  // this.c1.itemcart.push(cartlistitems) 
-  // for(let a in this.cartitems){
-  //   let check=this.cartitems.includes(a)
-  //   if(!check){
-  //     this.c1.itemcart=this.cartitems
-  //   }
-  // }
   this.c1.itemcart=this.cartitems
   }
 
@@ -31,6 +20,6 @@ Plist:any=[]
   addtocart(event:any){
     event.qty++
     this.cartitems.push(event)
-    console.log(this.c1.itemcart);
-    console.log(event)}
+    console.log(event)
+  }
 }
